@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.h5
+*.ckpt
+.ipynb_checkpoints/
+dataset_buah/
