@@ -1,43 +1,50 @@
-# Apple Ripeness Detection using Convolutional Neural Network (CNN)
-This project focuses on predicting the ripeness level of apples using
-Digital Image Processing and Convolutional Neural Network (CNN).
-The system classifies apple images into three categories:
-Unripe, Ripe, and Overripe.
-This project was developed as a final project for the
-Digital Image Processing course.
-## 📌 Project Objectives
-- Build an automatic system to predict apple ripeness from images
-- Apply image preprocessing techniques
-- Implement CNN with transfer learning
-- Evaluate model performance using accuracy and confusion matrix
+# Sistem Prediksi Kematangan Buah Apel Menggunakan Convolutional Neural Network (CNN)
+
+Proyek ini berfokus pada prediksi tingkat kematangan buah apel menggunakan
+Pengolahan Citra Digital dan metode Convolutional Neural Network (CNN).
+Sistem ini mengklasifikasikan citra buah apel ke dalam tiga kategori, yaitu:
+Belum Matang (Unripe), Matang (Ripe), dan Terlalu Matang (Overripe).
+Proyek ini dikembangkan sebagai tugas akhir pada mata kuliah
+Pengolahan Citra Digital
+## 📌 Tujuan Proyek
+- Membangun sistem otomatis untuk memprediksi kematangan buah apel berdasarkan citra
+- Menerapkan teknik preprocessing citra
+- Mengimplementasikan metode CNN dengan pendekatan transfer learning
+- Mengevaluasi kinerja model menggunakan akurasi dan confusion matrix
 ## 📂 Dataset
-The dataset consists of apple images divided into three classes:
-- Unripe (Unripe apples)
-- Ripe (Ripe apples)
-- Overripe (Overripe apples)
-Each class is stored in a separate folder.
-Dataset source is obtained from a public dataset (https://www.kaggle.com/datasets/asadullahprl/fruits-ripeness-classification-dataset/code).
-> ⚠️ Dataset is not uploaded directly to this repository due to size limitations.
-## 🧠 Methodology
-The methodology used in this project includes:
-1. Image preprocessing (resize, normalization)
-2. Image augmentation to increase data variation
-3. CNN model implementation using transfer learning
-4. Model training and validation
-5. Model evaluation using confusion matrix and accuracy
-## 🛠 Technologies Used
+Dataset yang digunakan terdiri dari citra buah apel yang dibagi ke dalam tiga kelas:
+- Unripe (buah apel belum matang)
+- Ripe (buah apel matang)
+- Overripe (buah apel terlalu matang)
+Setiap kelas disimpan dalam folder terpisah.
+Sumber dataset diperoleh dari dataset publik Kaggle:
+https://www.kaggle.com/datasets/asadullahprl/fruits-ripeness-classification-dataset/code
+
+> ⚠️ Dataset tidak diunggah langsung ke repository ini karena keterbatasan ukuran
+
+## 🧠 Metodologi
+Metodologi yang digunakan dalam proyek ini meliputi:
+1. Preprocessing citra (resize dan normalisasi)
+2. Image augmentation untuk meningkatkan variasi data
+3. Implementasi model CNN menggunakan transfer learning
+4. Proses pelatihan dan validasi model
+5. Evaluasi model menggunakan confusion matrix dan nilai akurasi
+
+## 🛠 Teknologi yang Digunakan
 - Python
 - TensorFlow / Keras
 - NumPy
 - OpenCV
 - Matplotlib
 - Scikit-learn
-## 📊 Model Evaluation
-Model performance is evaluated using:
-- Accuracy
+## 📊 Evaluasi Model
+Kinerja model dievaluasi menggunakan beberapa metrik, antara lain:
+- Akurasi
 - Confusion Matrix
-- Precision and Recall
-The results show that the CNN model is capable of classifying apple ripeness
-with good performance.
-Authors Fayzar Gymnastiar 
-Kelompok 1 Pengolahan Citra
+- Precision dan Recall
+Hasil evaluasi menunjukkan bahwa model CNN mampu mengklasifikasikan
+tingkat kematangan buah apel dengan performa yang baik.
+## 👥 Authors
+Fayzar Gymnastiar  
+Kelompok 1  
+Pengolahan Citra Digital
