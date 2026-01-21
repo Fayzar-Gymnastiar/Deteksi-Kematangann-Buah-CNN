@@ -9,7 +9,7 @@ The dataset consists of apple images categorized into three classes:
 - Ripe
 - Overripe
 
-Dataset source: Kaggle (link here)
+Dataset source: Kaggle (https://www.kaggle.com/datasets/asadullahprl/fruits-ripeness-classification-dataset/code))
 
 ## Method
 - Image preprocessing (resize, normalization, augmentation)
